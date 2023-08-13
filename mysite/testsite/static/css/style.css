@@ -1,0 +1,437 @@
+header h2{
+	color: #FFF;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 150%; /* 69px */
+}
+
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 35px; /* Уменьшение размера шрифта для h2 в header на маленьких экранах */
+    }
+}
+header h5{
+
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 21px */
+
+
+}
+
+header h6{
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+
+
+}
+header{
+
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* Растягивает изображение на всю область */
+    min-height: 100vh; /* высота элемента на всю видимую часть экрана */
+    width: 100%;
+
+
+}
+
+.reg-page{
+    min-height: 100vh; /* высота элемента на всю видимую часть экрана */
+    width: 100%;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* Растягивает изображение на всю область */
+
+}
+
+
+.reg-page h1{
+    width: 862px;
+    height: 73px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 63px */
+}
+
+
+.btn-header{
+	padding-top: 15px;
+    padding-bottom: 15px;
+	display: block;
+	border-radius: 9px;
+	background: #5B98E3;
+	color: #FFFFFF;
+	width: 305px;
+	height: 69px;
+	flex-shrink: 0;
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; 
+}
+.foot{
+    display: flex;
+	background: linear-gradient(88deg, #211EAA 0%, #3648B9 100%);
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 27px */
+}
+
+.up-row{
+    margin-right: 530px;
+}
+.foot h6{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%; /* 16.9px */
+}
+
+.etap h2{
+	color: #2A30B1;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 45px */
+}
+
+.etap h5{
+	color: #2A30B1;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 30px */
+}
+
+
+
+.line{
+	width: 100%;
+	height: 1px;
+	background: #2A30B1;
+
+}
+
+.celi h1{
+	color: #3444B8;
+	font-family: Montserrat;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 63px */
+}
+
+.celi h4{
+	color: #2F185F;
+	text-align: center;
+	font-family: PT Sans Narrow;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%; /* 33.6px */
+}
+
+.celi h5{
+	color: #2F185F;
+	text-align: center;
+	font-family: PT Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%; /* 25.2px */
+}
+
+.box-1 img{
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+@media (max-width: 698px) {
+    .box-1{
+    width: 250px;
+    }
+}
+
+.five-celi{
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1{
+    position: relative;
+    padding: 30px;
+	border-radius: 10px;
+	background: #FFF;
+	box-shadow: 0px 0px 64px 0px #BEC8F5;
+}
+
+.comitet h1{
+	color: #3444B8;
+	font-family: Montserrat;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 63px */
+}
+
+.comitet-img img{
+	width: 113px;
+	height: 161px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.comitet-img h5, p{
+	align-items: center;
+	justify-content: center;
+
+}
+.comitet-img h5{
+	color: #201EAA;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%; /* 28px */
+}
+
+.comitet-img p{
+	color: #191773;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 21px */
+}
+
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .no-gutters > .col,
+    .no-gutters > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+.fotki img{
+
+    width: 100%;
+    height: auto;
+}
+
+
+.galery h1{
+	color: #3444B8;
+	font-family: Montserrat;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 63px */
+}
+
+.contacts h1{
+	color: #3444B8;
+	font-family: Montserrat;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 63px */
+}
+
+.left-col{
+
+	height: 234px;
+	flex-shrink: 0;
+	background-color: #4340C9;
+	padding: 70px;
+
+}
+
+@media (max-width: 690px) {
+    .left-col {
+        padding: 35px; /* Уменьшение размера шрифта для h2 в header на маленьких экранах */
+    }
+}
+
+.left-col h4{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 31.5px */
+}
+.left-col h5{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+}
+.left-col h6{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 25.5px */
+}
+
+
+
+.right-col{
+	height: 234px;
+	flex-shrink: 0;
+	background-color: #0A72ED;
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 150%; /* 48px */
+	padding: 70px;
+}
+
+.right-col h4{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+}
+
+.right-col h6{
+    color: #ACD2FF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+
+@media (max-width: 768px){
+    .right-col h4{
+        font-size: 25px;
+    }
+}
+
+.btn-reg{
+    display: block;
+    border-radius: 9px;
+	background: #5B98E3;
+	color: #FFFFFF;
+	width: 305px;
+	height: 69px;
+	margin: 0 auto;
+
+
+}
+
+header h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 63px */
+}
+
+label{
+    margin: auto;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.form-control {
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    margin-bottom: 20px;
+}
+
+.form-control::placeholder {
+    color: #D3CCCC;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.2); /* Прозрачный цвет для линии */
+    transform: scaleX(1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    color: #2F185F;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after { /* Прозрачная линия также появляется при наведении */
+    background-color: #000; /* Цвет линии под активным элементом */
+    transform: scaleX(1);
+    color: #2A30B1;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */
+}
+
+
+
+
+
+
+
+
+
